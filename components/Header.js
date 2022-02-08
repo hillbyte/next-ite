@@ -19,11 +19,11 @@ const Logo = styled.h1`
 `;
 const StyledHeader = styled.header`
   .bar {
-    border-bottom: 5px solid var(--black, black)
+    border-bottom: 5px solid var(--black, black);
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: space-between;
-    align-items: center;  
+    align-items: stretch;
   }
   .sub-bar {
     display: grid;
@@ -38,11 +38,11 @@ function Header() {
         <Logo>
           <Link href="/"> Store</Link>
         </Logo>
+        <Nav />
       </div>
       <div className="sub-bar">
         <p>Search</p>
       </div>
-      <Nav />
     </StyledHeader>
   );
 }

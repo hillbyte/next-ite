@@ -8,11 +8,12 @@ body {
   padding: 0 ;
   margin: 0;
   line-height: 2;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: 'Roboto', sans-serif;
 }
  html {
   box-sizing: border-box;
+  font-size: 62.5%;
 --red: #FF0000;
 --black: #000;
 --grey: #3A3A3A;
@@ -48,7 +49,6 @@ export default function Page({ children }) {
   return (
     <div>
       <GlobalStyle />
-
       <Header />
       <InnerStyle>{children}</InnerStyle>
     </div>

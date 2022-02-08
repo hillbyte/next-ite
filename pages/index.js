@@ -1,4 +1,3 @@
-function IndexPage() {
-  return <h1>Hello</h1>;
-}
-export default IndexPage;
+import ProductPage from './products';
+// same as product route
+export default ProductPage;
